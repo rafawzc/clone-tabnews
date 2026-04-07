@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens</title>
+    <style>
+        /* Estilos (CSS) - cores e layout */
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 500px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .botoes {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .botao {
+            padding: 15px 40px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .botao-mae {
+            background: #e94e77;
+        }
+
+        .botao-pai {
+            background: #4a90d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Minhas Mensagens</h1>
+        <p>Clique em um botão para ler a mensagem</p>
+        
+        <div class="botoes">
+            <a href="mae.html" class="botao botao-mae">Mãe</a>
+            <a href="pai.html" class="botao botao-pai">Pai</a>
+        </div>
+    </div>
+</body>
+</html>
